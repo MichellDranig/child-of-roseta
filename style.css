@@ -1,0 +1,35 @@
+/*
+ Theme Name:   Child of Roseta
+ Theme URI:    http://www.cphbusiness.dk
+ Description:  Roseta Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     roseta
+ Version:      1.0.0
+*/
+
+a {
+    color: #715ab7;
+}
+.continue-reading-link span {
+    position: relative;
+    z-index: 5;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+    color: #715ab7;
+}
+
+.continue-reading-link span:hover {
+	color: #ffbf00;
+}
+.entry-title a:link, .entry-title a:visited {
+    color: inherit;
+    text-decoration: none;
+    color: #715ab7;
+} 
+#footer {
+	display: none;
+}
+
+
